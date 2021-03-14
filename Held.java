@@ -5,7 +5,7 @@
  * @author dt
  * @version 0.1
  */
-public class Held
+public class Held extends SpielerCharacter
 {
     // instance variables - replace the example below with your own
     private int lebenspunkte;

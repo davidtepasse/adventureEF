@@ -5,7 +5,7 @@
  * @author dt
  * @version 0.1
  */
-public class Magier
+public class Magier extends SpielerCharacter
 {
     // instance variables - replace the example below with your own
     private String name;
@@ -40,16 +40,6 @@ public class Magier
         return zauberkraft;
     }
     
-    public String getName(){
-        return name;
-    }
-    
-    public void setLebensenpunkte(int lebenspunkte){
-        this.lebenspunkte = lebenspunkte;
-    }
-    
-    public int getLebenspunkte(){
-        return lebenspunkte;
-    }
+
     
 }
