@@ -8,10 +8,8 @@
 public class Held extends SpielerCharacter
 {
     // instance variables - replace the example below with your own
-    private int lebenspunkte;
     private int vermoegen;
     private int kampfkraft;
-    private String name;
     private Waffe waffe;
 
     /**
@@ -20,10 +18,9 @@ public class Held extends SpielerCharacter
     public Held(int lebenspunkte, int vermoegen, int kampfkraft, String name)
     {
         // initialise instance variables
-        this.lebenspunkte = lebenspunkte;
+        super(lebenspunkte, name);
         this.vermoegen = vermoegen;
         this.kampfkraft = kampfkraft;
-        this.name = name;
     }
     
     /**

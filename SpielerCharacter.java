@@ -14,10 +14,11 @@ public class SpielerCharacter
     /**
      * Konstruktor für Objekte der Klasse SpielerCharacter
      */
-    public SpielerCharacter()
+    public SpielerCharacter(int lebenspunkte, String name)
     {
         // Instanzvariable initialisieren
-
+        this.name = name;
+        this.lebenspunkte = lebenspunkte;
     }
     public String getName(){
         return name;
