@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=SpielerCharacter
+comment0.text=\r\n\ Beschreiben\ Sie\ hier\ die\ Klasse\ SpielerCharacter.\r\n\ \r\n\ @author\ (Ihr\ Name)\ \r\n\ @version\ (eine\ Versionsnummer\ oder\ ein\ Datum)\r\n
+comment1.params=lebenspunkte\ name
+comment1.target=SpielerCharacter(int,\ java.lang.String)
+comment1.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ SpielerCharacter\r\n
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment3.params=lebenspunkte
+comment3.target=void\ setLebensenpunkte(int)
+comment4.params=
+comment4.target=int\ getLebenspunkte()
+comment4.text=\r\n\ Ich\ bin\ eine\ Beschreibung\ f\u00FCr\ die\ unten\ stehende\ Methode.\r\n
+numComments=5
